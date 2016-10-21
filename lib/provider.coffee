@@ -169,8 +169,9 @@ module.exports =
     attributePattern.exec(line)?[1]
 
   getAttributeValues: (attribute) ->
-    attribute = @completions.attributes[attribute]
-    attribute?.attribOption ? []
+    # attribute = @completions.attributes[attribute]
+    # attribute?.attribOption ? []
+    []
 
   getTagAttributes: (tag) ->
     @completions.tags[tag]?.attributes ? []

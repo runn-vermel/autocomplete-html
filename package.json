@@ -1,10 +1,10 @@
 {
-  "name": "autocomplete-html",
-  "version": "0.7.2",
-  "description": "HTML element and attribute autocompletions",
+  "name": "autocomplete-predix-ui",
+  "version": "0.1.0",
+  "description": "Predix UI Component autocompletions",
   "main": "./lib/main",
   "license": "MIT",
-  "repository": "https://github.com/atom/autocomplete-html",
+  "repository": "https://github.com/predixdev/px-autocomplete",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },

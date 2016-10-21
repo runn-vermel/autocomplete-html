@@ -1,4 +1,4 @@
-describe "HTML autocompletions", ->
+describe "Predix UI autocompletions", ->
   [editor, provider] = []
 
   getCompletions = ->
@@ -14,11 +14,11 @@ describe "HTML autocompletions", ->
     provider.getSuggestions(request)
 
   beforeEach ->
-    waitsForPromise -> atom.packages.activatePackage('autocomplete-html')
+    waitsForPromise -> atom.packages.activatePackage('autocomplete-predix-ui')
     waitsForPromise -> atom.packages.activatePackage('language-html')
 
     runs ->
-      provider = atom.packages.getActivePackage('autocomplete-html').mainModule.getProvider()
+      provider = atom.packages.getActivePackage('autocomplete-predix-ui').mainModule.getProvider()
 
     waitsFor -> Object.keys(provider.completions).length > 0
     waitsForPromise -> atom.workspace.open('test.html')
@@ -57,7 +57,7 @@ describe "HTML autocompletions", ->
     editor.setCursorBufferPosition([0, 1])
 
     completions = getCompletions()
-    expect(completions.length).toBe 112
+    expect(completions.length).toBe 41
     expect(completions[0].descriptionMoreURL.endsWith('/HTML/Element/a')).toBe true
 
     for completion in completions

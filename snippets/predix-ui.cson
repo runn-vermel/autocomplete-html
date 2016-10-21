@@ -1,0 +1,173 @@
+'.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
+
+  'px-dropdown':
+    'prefix': 'px-dropdown'
+    'body': '<px-dropdown>$0</px-dropdown>'
+
+  'px-app-nav':
+    'prefix': 'px-app-nav'
+    'body': '<px-app-nav>$0</px-app-nav>'
+
+  'px-login':
+    'prefix': 'px-login'
+    'body': '<px-login>$0</px-login>'
+
+  'px-simple-bar-chart':
+    'prefix': 'px-simple-bar-chart'
+    'body': '<px-simple-bar-chart>$0</px-simple-bar-chart>'
+
+  'px-theme':
+    'prefix': 'px-theme'
+    'body': '<px-theme>$0</px-theme>'
+
+  'px-card':
+    'prefix': 'px-card'
+    'body': '<px-card>$0</px-card>'
+
+  'px-vis':
+    'prefix': 'px-vis'
+    'body': '<px-vis>$0</px-vis>'
+
+  'px-vis-radar':
+    'prefix': 'px-vis-radar'
+    'body': '<px-vis-radar>$0</px-vis-radar>'
+
+  'px-vis-polar':
+    'prefix': 'px-vis-polar'
+    'body': '<px-vis-polar>$0</px-vis-polar>'
+
+  'px-vis-parallel-coordinates':
+    'prefix': 'px-vis-parallel-coordinates'
+    'body': '<px-vis-parallel-coordinates>$0</px-vis-parallel-coordinates>'
+
+  'px-vis-svg-canvas':
+    'prefix': 'px-vis-svg-canvas'
+    'body': '<px-vis-svg-canvas svg="{{svg}}" px-svg-elem="{{pxSvgElem}}" width="[[width]]" height="[[height]]" margin="[[margin]]">$0</px-vis-svg-canvas>'
+
+  'px-vis-xy-chart':
+    'prefix': 'px-vis-xy-chart'
+    'body': '<px-vis-xy-chart>$0</px-vis-xy-chart>'
+
+  'px-vis-timeseries':
+    'prefix': 'px-vis-timeseries'
+    'body': '<px-vis-timeseries>$0</px-vis-timeseries>'
+
+  'px-slider':
+    'prefix': 'px-slider'
+    'body': '<px-slider>$0</px-slider>'
+
+  'px-datetime-range-field':
+    'prefix': 'px-datetime-range-field'
+    'body': '<px-datetime-range-field>$0</px-datetime-range-field>'
+
+  'px-clipboard':
+    'prefix': 'px-clipboard'
+    'body': '<px-clipboard>$0</px-clipboard>'
+
+  'px-vis-spark':
+    'prefix': 'px-vis-spark'
+    'body': '<px-vis-spark>$0</px-vis-spark>'
+
+  'px-vis-pie-chart':
+    'prefix': 'px-vis-pie-chart'
+    'body': '<px-vis-pie-chart>$0</px-vis-pie-chart>'
+
+  'px-percent-circle':
+    'prefix': 'px-percent-circle'
+    'body': '<px-percent-circle>$0</px-percent-circle>'
+
+  'px-data-table':
+    'prefix': 'px-data-table'
+    'body': '<px-data-table>$0</px-data-table>'
+
+  'px-datetime-picker':
+    'prefix': 'px-datetime-picker'
+    'body': '<px-datetime-picker>$0</px-datetime-picker>'
+
+  'px-overlay':
+    'prefix': 'px-overlay'
+    'body': '<px-overlay>$0</px-overlay>'
+
+  'px-datetime-field':
+    'prefix': 'px-datetime-field'
+    'body': '<px-datetime-field>$0</px-datetime-field>'
+
+  'px-tooltip':
+    'prefix': 'px-tooltip'
+    'body': '<px-tooltip>$0</px-tooltip>'
+
+  'px-progress-bar':
+    'prefix': 'px-progress-bar'
+    'body': '<px-progress-bar>$0</px-progress-bar>'
+
+  'px-rangepicker':
+    'prefix': 'px-rangepicker'
+    'body': '<px-rangepicker>$0</px-rangepicker>'
+
+  'px-simple-horizontal-bar-chart':
+    'prefix': 'px-simple-horizontal-bar-chart'
+    'body': '<px-simple-horizontal-bar-chart>$0</px-simple-horizontal-bar-chart>'
+
+  'px-simple-line-chart':
+    'prefix': 'px-simple-line-chart'
+    'body': '<px-simple-line-chart>$0</px-simple-line-chart>'
+
+  'px-calendar-picker':
+    'prefix': 'px-calendar-picker'
+    'body': '<px-calendar-picker>$0</px-calendar-picker>'
+
+  'px-modal':
+    'prefix': 'px-modal'
+    'body': '<px-modal>$0</px-modal>'
+
+  'px-datetime-range-panel':
+    'prefix': 'px-datetime-range-panel'
+    'body': '<px-datetime-range-panel>$0</px-datetime-range-panel>'
+
+  'px-alert-message':
+    'prefix': 'px-alert-message'
+    'body': '<px-alert-message>$0</px-alert-message>'
+
+  'px-chart':
+    'prefix': 'px-chart'
+    'body': '<px-chart>$0</px-chart>'
+
+  'px-file-upload':
+    'prefix': 'px-file-upload'
+    'body': '<px-file-upload>$0</px-file-upload>'
+
+  'px-validation':
+    'prefix': 'px-validation'
+    'body': '<px-validation>$0</px-validation>'
+
+  'px-tab-set':
+    'prefix': 'px-tab-set'
+    'body': '<px-tab-set>$0</px-tab-set>'
+
+  'px-alert-label':
+    'prefix': 'px-alert-label'
+    'body': '<px-alert-label>$0</px-alert-label>'
+
+  'px-spinner':
+    'prefix': 'px-spinner'
+    'body': '<px-spinner>$0</px-spinner>'
+
+  'px-tab':
+    'prefix': 'px-tab'
+    'body': '<px-tab>$0</px-tab>'
+
+  'px-deck-selector':
+    'prefix': 'px-deck-selector'
+    'body': '<px-deck-selector>$0</px-deck-selector>'
+
+  'px-context-browser':
+    'prefix': 'px-context-browser'
+    'body': '<px-context-browser>$0</px-context-browser>'
+
+  'px-view':
+    'prefix': 'px-view'
+    'body': '<px-view>$0</px-view>'
+
+  'px-popover':
+    'prefix': 'px-popover'
+    'body': '<px-popover>$0</px-popover>'
